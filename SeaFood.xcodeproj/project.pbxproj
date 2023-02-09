@@ -13,6 +13,7 @@
 		BBBBF41129948B2D00A51DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBBF40F29948B2D00A51DCE /* Main.storyboard */; };
 		BBBBF41329948B2F00A51DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBBF41229948B2F00A51DCE /* Assets.xcassets */; };
 		BBBBF41629948B2F00A51DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBBF41429948B2F00A51DCE /* LaunchScreen.storyboard */; };
+		BBBBF42029948C3800A51DCE /* Inceptionv3.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = BBBBF41F29948C3800A51DCE /* Inceptionv3.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BBBBF41229948B2F00A51DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBBBF41529948B2F00A51DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBBBF41729948B2F00A51DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBBBF41F29948C3800A51DCE /* Inceptionv3.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Inceptionv3.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				BBBBF40F29948B2D00A51DCE /* Main.storyboard */,
 				BBBBF41229948B2F00A51DCE /* Assets.xcassets */,
 				BBBBF41429948B2F00A51DCE /* LaunchScreen.storyboard */,
+				BBBBF41F29948C3800A51DCE /* Inceptionv3.mlpackage */,
 				BBBBF41729948B2F00A51DCE /* Info.plist */,
 			);
 			path = SeaFood;
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBBBF42029948C3800A51DCE /* Inceptionv3.mlpackage in Sources */,
 				BBBBF40E29948B2D00A51DCE /* ViewController.swift in Sources */,
 				BBBBF40A29948B2D00A51DCE /* AppDelegate.swift in Sources */,
 				BBBBF40C29948B2D00A51DCE /* SceneDelegate.swift in Sources */,
@@ -290,6 +294,8 @@
 				DEVELOPMENT_TEAM = 7S6G6AV5F4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeaFood/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your Camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need your photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +324,8 @@
 				DEVELOPMENT_TEAM = 7S6G6AV5F4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeaFood/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your Camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need your photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
